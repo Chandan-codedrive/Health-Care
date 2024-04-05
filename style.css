@@ -1,0 +1,25 @@
+:root {
+    --colordarkblue: #26314E;
+    --colordarkgrey: #7A6F64;
+    --colorlightgrey: #C4C1BA;
+}
+
+body {
+    font-family: "Lora", serif;;
+    color: var(--colordarkblue);
+}
+
+#main-navbar {
+    background-color: var(--colorlightgrey);
+}
+
+
+#main-navbar button {
+    border: 1px solid var(--colordarkblue);
+}
+
+#main-navbar button:hover{
+    background-color: var(--colordarkgrey);
+    color: white;
+    border: 1px solid var(--colorlightgrey);
+}
