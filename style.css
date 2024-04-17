@@ -23,3 +23,72 @@ body {
     color: white;
     border: 1px solid var(--colorlightgrey);
 }
+
+/* Hero Slider */
+
+
+/* .carousel-item.active {
+    transform: scale(1.1);
+    transition: transform 1000ms linear;
+} */
+
+.carousel-item img {
+    opacity: 0.8;
+    animation: zoomAnimation 8s infinite linear ;
+}
+
+@keyframes zoomAnimation {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.2); }
+}
+
+#hero-section .slider-heading  {
+	width: 100vw;
+	height: 600px;
+    padding-top: 5rem;
+}
+
+#hero-section .hero-play-button {
+    margin-top: 6rem;
+    font-size: 7rem;
+    color: var(--colordarkblue);
+    opacity: 0.7;
+}
+
+#hero-section .cta-button {
+    border: 0;
+    width: 15rem;
+    background-color: var(--colordarkblue);
+    color: var(--colorlightgrey);
+    font-size: 1.5rem;
+    margin: auto;
+    transition: 250ms linear;
+}
+
+#hero-section .cta-button:hover {
+    background-color: var(--colorlightgrey);
+    color: var(--colordarkblue);
+    
+}
+
+#hero-section h1 {
+    font-size: 2rem;
+}
+
+ p {
+   font-size: 1.5rem; 
+}
+
+#our-service .service-column {
+    background-color: rgb(236, 236, 236);
+    width: 250px;
+    
+}
+
+#our-service .service-column h3 {
+    font-size: 24px;
+}
+
+#our-service .service-column p {
+    font-size: 16px;
+}
